@@ -1,0 +1,24 @@
+api_posts_index:
+    path: /api/posts
+    controller: App\Controller\Api\Post\PostController::index
+    methods: GET
+
+api_posts_show:
+    path: /api/posts/{id}
+    controller: App\Controller\Api\Post\PostController::show
+    methods: GET
+
+api_posts_create:
+    path: /api/posts
+    controller: App\Controller\Api\Post\PostController::create
+    methods: POST
+
+api_posts_update:
+    path: /api/posts/{id}
+    controller: App\Controller\Api\Post\PostController::update
+    methods: PUT
+
+api_posts_delete:
+    path: /api/posts/{id}
+    controller: App\Controller\Api\Post\PostController::delete
+    methods: DELETE
